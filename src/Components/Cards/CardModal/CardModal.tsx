@@ -7,6 +7,7 @@ type CardModalProps = {
 };
 const CardModal = ({ product, setIsModalOpen }: CardModalProps) => {
   const [nextImg, setNextImg] = useState(0);
+  const [imageLading,seImageLoading] = useState(false)
 
   const nextButtonClick = () => {
     setNextImg((nxt) => (nxt === product.images.length - 1 ? 0 : nxt + 1));

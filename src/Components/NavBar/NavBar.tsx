@@ -2,7 +2,7 @@ import cartSvg from "../../assets/cart.svg";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-around items-center ring-2 bg-[rgba(255,255,255,0.07)] backdrop-blur-2xl h-[80px] p-[5px] shadow-lg shadow-slate-950/80 scroll-mx-[50px]">
+    <div className="flex justify-around items-center ring-2 bg-[rgba(255,255,255,0.07)] backdrop-blur-2xl h-[80px] p-[5px] shadow-lg shadow-slate-800/100 scroll-mx-[50px]">
       <h1 className="text-4xl font-extrabold flex justify-center items-center"> <img src={cartSvg} alt="cart" className="w-[50px]" /> <span>ProductStore</span></h1>
 
       <section className="flex justify-around items-center w-[750px]">
