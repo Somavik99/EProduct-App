@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+*{
+    font-family:  "Comfortaa", sans-serif;
+}   
+
+.previous-button{
+   transform: translateX(-100%)
+}
+
+.image_container:hover .previous-button{
+transform: translateX(0);
+}
+
+.next-button{
+    transform: translateX(100%)
+}
+
+.image_container:hover .next-button{
+    transform: translateX(0);
+}
